@@ -1,0 +1,27 @@
+.root {
+  font-family: 'Georgia, serif';
+  padding: 20px;
+  width: 600px;
+}
+
+.editor {
+  border: 1px solid #ccc;
+  cursor: text;
+  min-height: 80px;
+  padding: 10px;
+}
+
+.url-input-container,
+.desktop-input-container {
+  margin-bottom: 10px;
+}
+
+.url-input {
+  font-family: 'Georgia, serif';
+  margin-right: 10px;
+  padding: 3px;
+}
+
+input[type=file] {
+  display: none;
+}
